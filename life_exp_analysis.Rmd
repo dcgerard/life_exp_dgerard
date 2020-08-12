@@ -30,7 +30,11 @@ gapminder_unfiltered %>%
   filter(lifeExp == max(lifeExp)) %>%
   arrange(year) ->
   maxdf
-maxdf
+```
+
+Here are the first few rows
+```{r}
+head(maxdf)
 ```
 
 
