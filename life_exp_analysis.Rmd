@@ -41,7 +41,8 @@ head(maxdf)
 
 ```{r}
 gapminder_unfiltered %>%
-  filter(year == 2000)
+  filter(year == 2000) %>%
+  summarise(meanle = median(lifeExp))
 ```
 
 
