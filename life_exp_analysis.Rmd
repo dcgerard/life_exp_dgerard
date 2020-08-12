@@ -37,8 +37,6 @@ Here are the first few rows
 head(maxdf)
 ```
 
-Here is a another line.
-
 
 
 
