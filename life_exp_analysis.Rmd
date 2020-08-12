@@ -37,6 +37,15 @@ Here are the first few rows
 head(maxdf)
 ```
 
+# Summary Statistics
+
+```{r}
+gapminder_unfiltered %>%
+  filter(year == 2000) %>%
+  summarise(meanle = mean(lifeExp))
+```
+
+
 
 
 
